@@ -64,4 +64,4 @@
 
 ---
 
-Desenvolvido como projeto institucional da **Educa Prime**.
+
