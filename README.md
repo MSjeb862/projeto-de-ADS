@@ -9,7 +9,7 @@
 - `rh.html`: Página do setor Recursos Humanos (RH).
 - `projetos.html`: Página do setor Projetos.
 - `styless.css`: Arquivo único de estilos usado por index.html.
-- `styles.css`: Arquivo único de estilo usado pelas extensões.
+- `styles.css`: Arquivo único de estilo usado pelos setores.
 
 ## Tecnologias Utilizadas
 
@@ -26,7 +26,7 @@
   - RH
   - Projetos
 - **Criação de 5 páginas** correspondentes, cada uma acessível e clicável a partir do menu.
-- **CSS unificado**: Todas as páginas agora usam um único arquivo `styless.css` para facilitar manutenção e garantir padronização visual.
+- **CSS unificado**: Todas as páginas agora usam um único arquivo `styles.css` para facilitar manutenção e garantir padronização visual.
 - **Responsividade** ajustada: o menu muda para coluna quando aberto em telas menores.
 - **Footer padronizado** com copyright.
 
@@ -40,7 +40,7 @@
 ## Como Executar a Aplicação Localmente
 
 1. **Baixe o Projeto**
-   - Extraia o arquivo `paginas_com_css_unico.zip`.
+   - Baixe o arquivo `projeto ADS`.
    - Os seguintes arquivos estarão na pasta:
      - `index.html`
      - `pais-alunos.html`
@@ -49,6 +49,7 @@
      - `rh.html`
      - `projetos.html`
      - `styless.css`
+     - `styles.css`
 
 2. **Abra a Página Inicial**
    - Clique duas vezes no arquivo `index.html` ou abra com seu navegador preferido (Chrome, Firefox, Edge).
@@ -59,7 +60,7 @@
 ## Observação
 
 - O conteúdo das páginas dos setores está como "Em construção", mas toda a estrutura e a navegação já estão funcionando.
-- Para mudar as cores ou o estilo geral do site, edite o arquivo `styless.css`.
+- Para mudar as cores ou o estilo geral do site, edite o arquivo `styles.css`.
 
 ---
 
