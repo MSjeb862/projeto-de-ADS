@@ -1,39 +1,65 @@
-# Home Page — Educa Prime
+# Educa Prime — Site Institucional com Setores
 
 ## Estrutura do Projeto
 
-- `index.html`: Contém a estrutura da página inicial da Educa Prime, com seções como destaque de cursos, informações institucionais, depoimentos e rodapé com contato.
-- `styless.css`: Arquivo CSS separado que define todo o estilo visual da página (cores, fontes, layout e responsividade).
+- `index.html`: Página inicial com menu e informações institucionais.
+- `pais-alunos.html`: Página do setor Pais e Alunos.
+- `apoio-pedagogico.html`: Página do setor Apoio Pedagógico.
+- `supervisao.html`: Página do setor Supervisão.
+- `rh.html`: Página do setor Recursos Humanos (RH).
+- `projetos.html`: Página do setor Projetos.
+- `styless.css`: Arquivo único de estilos usado por todas as páginas.
 
-## Decisões de Design
+## Tecnologias Utilizadas
 
-- **Separação Estruturada**: HTML limpo e sem estilos inline. Todo o design é controlado pelo CSS externo.
-- **Uso de Variáveis CSS**: As cores principais são definidas no seletor `:root`, permitindo fácil troca da paleta de cores. Exemplo:
-  - `--primary-color`: preto
-  - `--secondary-color`: amarelo
-  - `--text-color`: branco
-- **Layout Responsivo**: O menu e o layout adaptam-se para telas menores usando media queries.
-- **Acessibilidade**: Uso de atributos `aria-label` na navegação para ajudar leitores de tela.
-- **Tipografia**: Uso consistente da fonte Arial, com títulos centralizados e textos em negrito para maior destaque.
+- **HTML5**: Estrutura das páginas.
+- **CSS3**: Estilos centralizados em um único arquivo para manter padrão visual.
+- **Responsividade**: Uso de media queries para adaptar o site em telas menores (celulares/tablets).
+
+## Alterações Implementadas
+
+- **Novo menu com 5 setores**:
+  - Pais e Alunos
+  - Apoio Pedagógico
+  - Supervisão
+  - RH
+  - Projetos
+- **Criação de 5 páginas** correspondentes, cada uma acessível e clicável a partir do menu.
+- **CSS unificado**: Todas as páginas agora usam um único arquivo `styless.css` para facilitar manutenção e garantir padronização visual.
+- **Responsividade** ajustada: o menu muda para coluna quando aberto em telas menores.
+- **Footer padronizado** com copyright.
+
+## Motivações e Soluções
+
+- **Separar setores**: Para facilitar a navegação dos usuários e tornar o site modular e escalável.
+- **Centralizar o CSS**: Para facilitar futuras alterações. Qualquer modificação visual agora afeta todas as páginas ao mesmo tempo.
+- **Responsividade**: Para garantir bom funcionamento tanto em desktops quanto em celulares.
+- **Acessibilidade**: Manter uma navegação simples e com contraste adequado.
 
 ## Como Executar a Aplicação Localmente
 
 1. **Baixe o Projeto**
-   - Salve os arquivos `index.html` e `styless.css` na mesma pasta do seu computador.
+   - Extraia o arquivo `paginas_com_css_unico.zip`.
+   - Os seguintes arquivos estarão na pasta:
+     - `index.html`
+     - `pais-alunos.html`
+     - `apoio-pedagogico.html`
+     - `supervisao.html`
+     - `rh.html`
+     - `projetos.html`
+     - `styless.css`
 
-2. **Abra a Página**
-   - Dê um duplo clique no arquivo `index.html`.
-   - Ou clique com o botão direito e selecione "Abrir com" e escolha seu navegador (Chrome, Firefox, Edge, etc).
+2. **Abra a Página Inicial**
+   - Clique duas vezes no arquivo `index.html` ou abra com seu navegador preferido (Chrome, Firefox, Edge).
 
-3. **Visualize Localmente**
-   - A página abrirá no seu navegador e funcionará sem necessidade de internet, pois todo o código está local.
+3. **Navegue Entre os Setores**
+   - Use o menu para acessar cada página setorial. Todas são clicáveis e estão estruturadas.
 
 ## Observação
 
-- Se desejar personalizar as cores, edite as variáveis no início do arquivo `styless.css`:
-```css
-:root {
-    --primary-color:  #000000;
-    --secondary-color: #FFC107;
-    --text-color: #FFFFFF;
-}
+- O conteúdo das páginas dos setores está como "Em construção", mas toda a estrutura e a navegação já estão funcionando.
+- Para mudar as cores ou o estilo geral do site, edite o arquivo `styless.css`.
+
+---
+
+Desenvolvido como projeto institucional da **Educa Prime**.
