@@ -8,7 +8,8 @@
 - `supervisao.html`: Página do setor Supervisão.
 - `rh.html`: Página do setor Recursos Humanos (RH).
 - `projetos.html`: Página do setor Projetos.
-- `styless.css`: Arquivo único de estilos usado por todas as páginas.
+- `styless.css`: Arquivo único de estilos usado por index.html.
+- `styles.css`: Arquivo único de estilo usado pelas extensões.
 
 ## Tecnologias Utilizadas
 
