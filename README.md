@@ -8,8 +8,9 @@
 - `supervisao.html`: Página do setor Supervisão.
 - `rh.html`: Página do setor Recursos Humanos (RH).
 - `projetos.html`: Página do setor Projetos.
-- `styless.css`: Arquivo único de estilos usado por index.html.
-- `styles.css`: Arquivo único de estilo usado pelos setores.
+- `contato.html`: Página de contato para suporte, dúvidas e reclamações.
+- `styles.css`: Arquivo único de estilos usado por todos os 6 setores.
+- `styless.css`: Arquico único de estilo usado pelo `index.html`
 
 ## Tecnologias Utilizadas
 
@@ -19,16 +20,28 @@
 
 ## Alterações Implementadas
 
-- **Novo menu com 5 setores**:
+- **Novo menu com 6 setores**:
   - Pais e Alunos
   - Apoio Pedagógico
   - Supervisão
   - RH
   - Projetos
-- **Criação de 5 páginas** correspondentes, cada uma acessível e clicável a partir do menu.
+  - contato
+- **Criação de 6 páginas** correspondentes, cada uma acessível e clicável a partir do menu.
 - **CSS unificado**: Todas as páginas agora usam um único arquivo `styles.css` para facilitar manutenção e garantir padronização visual.
 - **Responsividade** ajustada: o menu muda para coluna quando aberto em telas menores.
 - **Footer padronizado** com copyright.
+
+## [2025-05-08] - Criação da Página de Contato
+
+- Criada a página `contato.html`.
+- Decisão: Utilizar link direto para WhatsApp e link para envio de e-mail.
+  - Evita necessidade de servidor/backend.
+  - Funciona em qualquer celular e navegador.
+- Usuário pode escolher entre:
+  - Falar via WhatsApp
+  - Enviar e-mail para suporte
+- Página está integrada com o CSS único do projeto.
 
 ## Motivações e Soluções
 
@@ -40,7 +53,7 @@
 ## Como Executar a Aplicação Localmente
 
 1. **Baixe o Projeto**
-   - Baixe o arquivo `projeto ADS`.
+   - Instale a pasta.
    - Os seguintes arquivos estarão na pasta:
      - `index.html`
      - `pais-alunos.html`
@@ -48,6 +61,7 @@
      - `supervisao.html`
      - `rh.html`
      - `projetos.html`
+     - `contato.html`
      - `styless.css`
      - `styles.css`
 
@@ -60,8 +74,8 @@
 ## Observação
 
 - O conteúdo das páginas dos setores está como "Em construção", mas toda a estrutura e a navegação já estão funcionando.
-- Para mudar as cores ou o estilo geral do site, edite o arquivo `styles.css`.
+- Para mudar as cores ou o estilo geral do site, edite o arquivo `styless.css` ou `styles.css`.
 
 ---
 
-
+Desenvolvido como projeto institucional da **Educa Prime**.
