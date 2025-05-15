@@ -1,4 +1,4 @@
-# Educa Prime — Site Institucional com Setores
+# Educa Prime — Site Institucional
 
 ## Estrutura do Projeto
 
@@ -10,72 +10,96 @@
 - `projetos.html`: Página do setor Projetos.
 - `contato.html`: Página de contato para suporte, dúvidas e reclamações.
 - `styles.css`: Arquivo único de estilos usado por todos os 6 setores.
-- `styless.css`: Arquico único de estilo usado pelo `index.html`
+- `styless.css`: Arquivo único de estilo usado pela página `index.html`.
+- `politica-de-privacidade.html`: Página explicando como os dados são tratados.
+- `termos-de-uso.html`: Página com regras de uso do site.
 
 ## Tecnologias Utilizadas
 
-- **HTML5**: Estrutura das páginas.
-- **CSS3**: Estilos centralizados em um único arquivo para manter padrão visual.
-- **Responsividade**: Uso de media queries para adaptar o site em telas menores (celulares/tablets).
+- HTML5: Estrutura das páginas.
+- CSS3: Estilos centralizados em arquivos externos para manter padrão visual.
+- Responsividade: Uso de media queries para adaptar o site em telas menores (celulares/tablets).
 
 ## Alterações Implementadas
 
-- **Novo menu com 6 setores**:
+- Novo menu com 6 setores:
   - Pais e Alunos
   - Apoio Pedagógico
   - Supervisão
   - RH
   - Projetos
-  - contato
-- **Criação de 6 páginas** correspondentes, cada uma acessível e clicável a partir do menu.
-- **CSS unificado**: Todas as páginas agora usam um único arquivo `styles.css` para facilitar manutenção e garantir padronização visual.
-- **Responsividade** ajustada: o menu muda para coluna quando aberto em telas menores.
-- **Footer padronizado** com copyright.
+  - Contato
+- Criação de 6 páginas correspondentes, cada uma acessível e clicável a partir do menu.
+- CSS unificado: todas as páginas agora usam um único arquivo `styles.css` para facilitar manutenção e garantir padronização visual.
+- Responsividade ajustada: o menu muda para coluna quando aberto em telas menores.
+- Rodapé padronizado com copyright.
+  
+---
 
 ## [2025-05-08] - Criação da Página de Contato
 
 - Criada a página `contato.html`.
-- Decisão: Utilizar link direto para WhatsApp e link para envio de e-mail.
-  - Evita necessidade de servidor/backend.
-  - Funciona em qualquer celular e navegador.
+- Decisão: utilizar link direto para WhatsApp e link para envio de e-mail.
+- Evita necessidade de servidor/backend.
+- Funciona em qualquer celular e navegador.
 - Usuário pode escolher entre:
   - Falar via WhatsApp
   - Enviar e-mail para suporte
-- Página está integrada com o CSS único do projeto.
-
-## Motivações e Soluções
-
-- **Separar setores**: Para facilitar a navegação dos usuários e tornar o site modular e escalável.
-- **Centralizar o CSS**: Para facilitar futuras alterações. Qualquer modificação visual agora afeta todas as páginas ao mesmo tempo.
-- **Responsividade**: Para garantir bom funcionamento tanto em desktops quanto em celulares.
-- **Acessibilidade**: Manter uma navegação simples e com contraste adequado.
-
-## Como Executar a Aplicação Localmente
-
-1. **Baixe o Projeto**
-   - Instale a pasta.
-   - Os seguintes arquivos estarão na pasta:
-     - `index.html`
-     - `pais-alunos.html`
-     - `apoio-pedagogico.html`
-     - `supervisao.html`
-     - `rh.html`
-     - `projetos.html`
-     - `contato.html`
-     - `styless.css`
-     - `styles.css`
-
-2. **Abra a Página Inicial**
-   - Clique duas vezes no arquivo `index.html` ou abra com seu navegador preferido (Chrome, Firefox, Edge).
-
-3. **Navegue Entre os Setores**
-   - Use o menu para acessar cada página setorial. Todas são clicáveis e estão estruturadas.
-
-## Observação
-
-- O conteúdo das páginas dos setores está como "Em construção", mas toda a estrutura e a navegação já estão funcionando.
-- Para mudar as cores ou o estilo geral do site, edite o arquivo `styless.css` ou `styles.css`.
+- Página integrada com o CSS único do projeto.
 
 ---
 
-Desenvolvido como projeto institucional da **Educa Prime**.
+## [2025-05-15] - Inclusão das Páginas de Política de Privacidade e Termos de Uso
+
+- Criadas as páginas `politica-de-privacidade.html` e `termos-de-uso.html`.
+- Rodapé atualizado com links para estas páginas.
+- Implementação do banner de cookies que aparece na primeira visita do usuário, com opção de aceite via botão.
+- Implementado mecanismo via JavaScript usando `localStorage` para armazenar o aceite do usuário, evitando reaparecimento do banner em visitas futuras.
+
+## Motivações e Soluções
+
+- Separar setores: para facilitar a navegação dos usuários e tornar o site modular e escalável.
+- Centralizar o CSS: para facilitar futuras alterações. Qualquer modificação visual agora afeta todas as páginas ao mesmo tempo.
+- Responsividade: para garantir bom funcionamento tanto em desktops quanto em celulares.
+- Acessibilidade: manter uma navegação simples e com contraste adequado.
+- Garantir conformidade com LGPD por meio do banner de cookies e termos de uso acessíveis.
+
+## Como Executar a Aplicação Localmente
+
+### Baixe o projeto
+
+Extraia a pasta contendo os arquivos listados abaixo.
+
+Os seguintes arquivos estarão na pasta:
+
+- `index.html`
+- `pais-alunos.html`
+- `apoio-pedagogico.html`
+- `supervisao.html`
+- `rh.html`
+- `projetos.html`
+- `contato.html`
+- `styless.css`
+- `styles.css`
+- `main.js` (JavaScript para o banner de cookies)
+- `politica-de-privacidade.html`
+- `termos-de-uso.html`
+
+### Abra a página inicial
+
+Clique duas vezes no arquivo `index.html` ou abra com seu navegador preferido (Chrome, Firefox, Edge).
+
+### Navegue entre os setores
+
+Use o menu para acessar cada página setorial. Todas são clicáveis e estão estruturadas.
+
+## Observação
+
+O conteúdo das páginas dos setores está como "Em construção", mas toda a estrutura e navegação já estão funcionando.
+
+Para mudar as cores ou o estilo geral do site, edite os arquivos `styless.css` ou `styles.css`.
+
+---
+
+Desenvolvido para fins acadêmicos — Projeto Educa Prime.
+
